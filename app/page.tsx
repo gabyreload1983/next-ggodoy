@@ -2,16 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main>
       <Image
-        alt=""
+        alt="hero images"
         src="/images/hero.jpg"
-        quality={100}
         fill
-        sizes="100vw"
-        style={{
-          objectFit: "cover",
-        }}
+        objectFit="cover"
+        quality={100}
       />
     </main>
   );
