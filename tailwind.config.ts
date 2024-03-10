@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         primary: "#0EFA4B",
       },
+      gridTemplateColumns: {
+        gallery: "repeat(auto-fit, minmax(300px, 1fr))",
+      },
     },
   },
   plugins: [],
