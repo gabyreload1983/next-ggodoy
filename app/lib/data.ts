@@ -1,4 +1,8 @@
-import { projects, aboutGallery } from "./dataBase";
+import { heroImageUrl, projects, aboutGallery } from "./dataBase";
+
+export const getHeroImageUrl = () => {
+  return heroImageUrl;
+};
 
 export const getProjects = async () => {
   return projects;

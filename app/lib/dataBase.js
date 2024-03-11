@@ -1,3 +1,6 @@
+export const heroImageUrl =
+  "https://gabrielgodoy.com.ar/resources/images/hero.jpg";
+
 export const projects = [
   {
     id: "16",
