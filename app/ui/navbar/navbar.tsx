@@ -18,7 +18,7 @@ export default function Navbar() {
     { name: "SKILLS", href: "/skills", target: "" },
     {
       name: "CV",
-      href: "https://gabrielgodoy.com.ar/resources/cv/estebangabrielgodoy_cv.pdf",
+      href: "/cv/estebangabrielgodoy_cv.pdf",
       target: "_blank",
     },
   ];
