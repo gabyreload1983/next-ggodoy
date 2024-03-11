@@ -7,7 +7,7 @@ export default async function About() {
   return (
     <main className="p-10 md:max-w-screen-2xl md:mx-auto">
       <div className="border-b-2 border-primary pb-5 max-w-6xl mx-auto mb-10">
-        <p className="text-2xl">
+        <p className="text-2xl text-center lg:text-start">
           Besides programming... I like to travel, swim, play guitar and share
           life with those I love.
         </p>
